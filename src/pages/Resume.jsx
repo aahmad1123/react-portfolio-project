@@ -1,9 +1,8 @@
-import projImage from "../assets/project-1-screenshot.jpg"
+import projImage from "../assets/resume.pdf"
 
 function Resume(){
     return(
         <div>
-            <h2>This is the Resume page</h2>
             <h3>Download my <a href={projImage} download>Resume</a></h3>
         </div>
     )

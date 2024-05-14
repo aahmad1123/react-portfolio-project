@@ -3,6 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: white;
+}
+
+body{
+  background-color: #0a2239;
 }
 
 .nav-list{
@@ -16,3 +21,47 @@
   margin: 12px;
 }
 
+.logo {
+  resize: both;
+  height: 75px;
+  width: 150px;
+}
+
+.logo2 {
+  margin-left: 50px;
+  resize: both;
+  height: 50px;
+  width: 150px;
+}
+
+.active {
+  color: lavender; /* white color */
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  width: 200px;
+  margin-top: 10px;
+}
+
+.card-flex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-body{
+  background-color: #176087;
+  color: white
+}
+
+.btn{
+  background-color: #132e32;
+}
