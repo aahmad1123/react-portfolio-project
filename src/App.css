@@ -65,3 +65,9 @@ body{
 .btn{
   background-color: #132e32;
 }
+
+.centered-row {
+  max-width: 900px; /* Adjust as needed */
+  margin-left: 150px;
+  margin-right: auto;
+}
